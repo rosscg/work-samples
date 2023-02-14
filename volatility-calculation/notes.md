@@ -17,6 +17,7 @@ $ volatility = std \times \sqrt{trading days}$
 
 
 ## ToDo:
+- replot stock d returns without level shift outlier for better comparison / subplot and share y axis.
 - Implement level shift detection -- i.e. stock D -- **CONSULT DOMAIN EXPERTISE**
 - Volatility shift detection -- i.e. stock D. Are latest values more useful? -- **CONSULT DOMAIN EXPERTISE**
 - 3x std threshold is arbitrary, can test modifications of this based on extent of outlier trends.
@@ -30,6 +31,6 @@ $ volatility = std \times \sqrt{trading days}$
 ## References:
 Automatic outlier detection for time series: an application to sensor data
 	https://link.springer.com/article/10.1007/s10115-006-0026-6
-	
+
 A Survey of Methods for Time Series Change Point Detection
 	https://link.springer.com/article/10.1007/s10115-016-0987-z
